@@ -37,6 +37,11 @@ end
 # p x.kind_of?Array
 # p x[0][:name]
 #puts x["Don Gately"]
+  literal_aoh[row][key]
+end
+x=literal_aoh
+#p x
+p aoh_lookup(x,0,0)
 
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
@@ -50,3 +55,4 @@ end
 # assembled_aoh[1][:name]="Joelle van Dyne (PGOAT)"
 # aoh_update(assembled_aoh,1,:name,"Joelle van Dyne (PGOAT)")
 # p assembled_aoh[1][:name]
+p assembled_aoh
